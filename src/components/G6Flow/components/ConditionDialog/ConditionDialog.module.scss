@@ -1,0 +1,63 @@
+.conditionDialog {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dialog {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .leftBar {
+    width: 208px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 470px;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow-wrap: auto;
+    padding: 4px;
+    .nodeStyle {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+    }
+    .box {
+      margin-left: 0px;
+    }
+    // .label {
+
+    // }
+    .tree {
+      width: 100%;
+      border-radius: 4px;
+    }
+  }
+
+  .content {
+    width: calc(100% - 215px);
+    height: 470px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    .condition {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      border-top: 1px solid #ddd;
+      width: 100%;
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      padding-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.renderer {
+  :global(.lf-mini-map-header) {
+    display: none;
+  }
+  :global(.lf-mini-map) {
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+}

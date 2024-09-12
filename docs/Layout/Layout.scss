@@ -1,0 +1,12 @@
+.el-message {
+  display: none!important;
+}
+
+.hover {
+  &:hover {
+    background-color: #ddd;
+  }
+  &:active {
+    background-color: #ccc;
+  }
+}

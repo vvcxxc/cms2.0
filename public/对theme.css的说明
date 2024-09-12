@@ -1,0 +1,24 @@
+css动态变量前缀加--
+--module_background 运行模块背景颜色
+--elselect_time:element ui的时间下拉框颜色
+--elselect_time_middle： element ui的时间控件中间的'-'颜色
+--elinput:element ui的输入框颜色
+--elinput_word:element ui的输入框文字的颜色
+--eltable_head:element ui的表头的颜色
+--head_condition_word:运行模块搜索条件文字的颜色
+--eltable_head_word:element ui的表头文字的颜色
+--eltable_body_word:element ui的表格文字的颜色
+--query_button:查询按钮的颜色
+--query_button_word:查询按钮文字的颜色
+--popup_head:弹窗标题的颜色
+--popup_head_word:弹窗标题文字的颜色
+--popup_body:弹窗内容的颜色
+--popup_body_word:弹窗内容的文字颜色
+--elselect_selected: element ui下拉框选中的颜色 
+--elselect_word:element ui下拉框文字的颜色 
+--eltree_selected：element ui树选中的颜色
+--eltree_selected_border:element ui树选中边框的颜色
+--popup_cancel_button:弹窗取消按钮的颜色
+--popup__button_determine弹窗确定按钮的颜色
+--eltree_word:element ui树文字的颜色
+--eltree:element ui tree的颜色

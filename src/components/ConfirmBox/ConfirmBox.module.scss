@@ -1,0 +1,25 @@
+.confirmDialog {
+  min-height: 55px;
+  // border: 1px solid #dde0e4;
+  // border-radius: 2px 2px 2px 2px;
+  word-break: break-all;
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10 0px;
+  overflow: auto;
+  text-align: center;
+}
+
+
+.ConfirmBox {
+  :global(.cs-dialog-content){
+    height: auto !important;
+    padding: 0 !important;
+  }
+  :global(.cs-dialog-footer){
+    padding: 0;
+  }
+}

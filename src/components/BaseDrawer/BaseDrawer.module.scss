@@ -1,0 +1,78 @@
+.informationDrawerPosition {
+  position: relative;
+}
+.informationDrawer {
+  background: linear-gradient(180deg, #dee4ff 0%, #ffffff 40%, #ffffff 100%);
+  box-shadow: 0px -4px 30px 1px rgba(0, 0, 0, 0.16);
+
+  border-radius: 6px 6px 0px 0px;
+  opacity: 1;
+  border: 1px solid #f0f3fd;
+
+  @keyframes iconFrames {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0.66;
+    }
+    50% {
+      opacity: 0.33;
+    }
+    75% {
+      opacity: 0.66;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+  .iconPosition {
+    position: absolute;
+    top: 38px;
+    right: 111px;
+    user-select: none;
+    -webkit-user-drag: none;
+    animation: iconFrames 2s infinite linear;
+  }
+  :global(.cs-drawer__header) {
+    padding-top: 36px;
+    .cs-drawer__close-btn {
+      margin-top: -16px;
+      font-size: 16px;
+    }
+
+    > span {
+      font-size: 18px;
+      font-family: Source Han Sans CN, Source Han Sans CN;
+      font-weight: bold;
+      color: #464e54;
+      line-height: 0px;
+    }
+  }
+  :global(.cs-drawer__close-btn) {
+    margin-top: -16px;
+    font-size: 16px;
+  }
+  :global(.cs-drawer__body) {
+    padding: 30px;
+    padding-top: 13px;
+  }
+}
+
+.modal {
+  width: var(--drawer-width);
+  left: calc(100% - var(--drawer-width)) !important;
+}
+
+.csDialogFooter {
+  padding: 0 18px;
+  .csBaseBtn {
+    width: 98px;
+    height: 26px;
+  }
+  .dialogBtn {
+    background: #efeded;
+    color: #666666;
+  }
+}

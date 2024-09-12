@@ -1,0 +1,32 @@
+.text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+:global(.s-td-name) {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+:global(.information-table) {
+  :global(.s-row--td-hover) {
+    :global(.s-icon-btn) {
+      display: none;
+    }
+  }
+  :global(.row--hover) {
+    :global(.s-row--td-hover) {
+      :global(.s-td-name) {
+        width: calc(100% - 80px);
+      }
+      :global(.s-icon-btn) {
+        display: block;
+      }
+    }
+  }
+}

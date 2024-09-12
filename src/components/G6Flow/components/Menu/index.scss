@@ -1,0 +1,45 @@
+// 右侧菜单
+.mx-context-menu {
+  width: 132px;
+  background: #ffffff;
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.16);
+  padding: 0px;
+
+  .mx-context-menu-item-wrapper {
+    padding: 4px;
+    height: 40px;
+    border-bottom: 1px solid #e3e6ed;
+
+    .mx-context-menu-item {
+      cursor: pointer;
+      border-radius: 6px;
+      width: 100%;
+      padding: 0;
+      height: 100%;
+    }
+  }
+
+  .mx-context-menu-item-wrapper:last-child {
+    border-bottom: none;
+  }
+
+  .table-context-menu-item-c {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 6px 0 6px 11px;
+
+    .icon-box {
+      width: auto;
+    }
+
+    .label-c {
+      font-size: 14px;
+      font-family: PingFang SC, PingFang SC;
+      font-weight: 400;
+      color: #333333;
+    }
+  }
+}

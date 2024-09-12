@@ -1,0 +1,35 @@
+.searchInputIcon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -25px;
+  .boxNum {
+    color: #888888;
+    font-size: 10px;
+    font-style: normal;
+  }
+}
+.inputContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  // margin-top: px;
+}
+.closeIcon {
+  color: #888888;
+  font-size: 10px;
+  font-style: normal;
+  margin-left: 10px;
+  cursor: pointer;
+  &:hover {
+    color: #5a84ff;
+  }
+}
+
+.searchIcon {
+  cursor: pointer;
+  &:hover {
+    color: #5a84ff;
+  }
+}

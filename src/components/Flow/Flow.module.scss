@@ -1,0 +1,31 @@
+.flows_pick {
+  width: 100%;
+  height: 66px;
+  box-shadow: 0 0 0 1px var(--cs-input-border-color, var(--cs-border-color))
+    inset;
+  border-radius: var(--cs-input-border-radius, var(--cs-border-radius-base));
+  cursor: pointer;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  padding: 7px;
+  overflow: auto;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding-bottom: 0px;
+  cursor: no-drop;
+
+  &:hover {
+    box-shadow: 0 0 0 1px #c0c4cc inset;
+  }
+}
+.disabled {
+  background-color: var(--cs-disabled-bg-color);
+}
+.flowTag {
+  display: inline;
+  margin-top: -7px;
+  margin-left: 4px;
+  color: #5c5c5c;
+}

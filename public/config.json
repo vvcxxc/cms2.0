@@ -1,0 +1,4 @@
+{
+  "maxUsedJSHeapSizeToReload": 1000,
+  "maxUsedJSHeapSizeToReloadInterval": 10000
+}

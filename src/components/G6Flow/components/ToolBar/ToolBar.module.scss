@@ -1,0 +1,32 @@
+.toolBarContent {
+  width: auto;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  border: none !important;
+  box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.12),
+    0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  padding-left: 0;
+  margin: 0;
+  user-select: none;
+}
+
+.toolBarItem {
+  width: 20px;
+  height: 40px !important;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    filter: invert(50%) sepia(45%) saturate(3890%) hue-rotate(208deg)
+      brightness(102%) contrast(106%);
+  }
+}

@@ -1,0 +1,146 @@
+.cs-setting-select_custom_style {
+  box-shadow: none;
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+  border-radius: 4px;
+  color: var(--cms-text-el-input-color);
+  border: 1px solid var(--cms-color-bg-4);
+  background-color: var(--cms-color-bg-3);
+  background-color: #141414;
+  outline: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  overflow: hidden;
+
+  ::deep(.cs-input__inner) {
+    padding-right: 24px !important;
+  }
+  &:hover {
+    border-bottom: 1px solid var(--cms-color-primary-1);
+    box-shadow: none !important;
+  }
+  .cs-select__wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-align: left;
+    font-size: 12px;
+    gap: 6px;
+    min-height: 28px;
+    line-height: 24px;
+    border-radius: var(--el-border-radius-base);
+    transition: var(--el-transition-duration);
+    background-color: #141414;
+    padding: 0 12px;
+    box-shadow: none;
+    &:hover {
+      box-shadow: none !important;
+    }
+  }
+  .cs-select__wrapper.is-focused {
+    box-shadow: none;
+  }
+  .cs-select__selection {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+    gap: 6px;
+  }
+
+  .cs-select__input-wrapper.is-hidden {
+    position: absolute;
+    opacity: 0;
+  }
+  .cs-select__input-wrapper {
+    max-width: 100%;
+  }
+  .cs-select__selected-item {
+    display: flex;
+    flex-wrap: wrap;
+    user-select: none;
+  }
+  .cs-select__placeholder.is-transparent {
+    user-select: none;
+    color: var(--el-text-color-placeholder);
+  }
+  .cs-select__placeholder {
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .cs-select__input {
+    border: none;
+    outline: none;
+    padding: 0;
+    color: var(--el-select-multiple-input-color);
+    font-size: inherit;
+    font-family: inherit;
+    appearance: none;
+    height: 24px;
+    max-width: 100%;
+    background-color: transparent;
+  }
+  .cs-select__prefix,
+  .cs-select__suffix {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 6px;
+    color: var(--el-input-icon-color, var(--el-text-color-placeholder));
+    .cs-select__caret {
+      color: var(--el-select-input-color);
+      font-size: var(--el-select-input-font-size);
+      transition: var(--el-transition-duration);
+      transform: rotate(0);
+      cursor: pointer;
+    }
+    .cs-icon {
+      --color: inherit;
+      height: 1em;
+      width: 1em;
+      line-height: 1em;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      fill: currentColor;
+      color: var(--color);
+      font-size: inherit;
+    }
+  }
+}
+
+.settings-cs-select_check {
+  box-shadow: 0 1px 6px 1px #0000008f !important;
+  background: #202124 !important;
+  border: 0 !important;
+  .cs-select-dropdown__item:hover {
+    background: #383737 !important;
+    color: #ccc !important;
+    border-radius: 4px;
+  }
+  .cs-select-dropdown__item.is-hovering,
+  .cs-select-dropdown__item.is-selected {
+    background: #383737 !important;
+    color: #ccc !important;
+    border-radius: 4px;
+  }
+  .cs-popper__arrow::before {
+    border-top: none !important;
+    border-left: none !important;
+    border-bottom-color: transparent !important;
+    border-right-color: transparent !important;
+    background: #383737 !important;
+  }
+}

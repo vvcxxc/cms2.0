@@ -1,0 +1,69 @@
+.container {
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #dbdbdb;
+  font-family: PingFang SC, PingFang SC;
+  // padding: 0 12px;
+  position: relative;
+  overflow: hidden;
+
+  .title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #35363b;
+    margin-left: 6px;
+  }
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 46px;
+    padding: 0 20px;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    border: 1px solid #e1e1e1;
+    border-left: 0;
+    border-right: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 0;
+  }
+}
+.scrollContent {
+  height: calc(100% - 94px);
+  box-sizing: border-box;
+  background: #fff;
+  overflow: hidden;
+  // padding: 0 12px;
+  // padding-right: 4px;
+}
+.content {
+  height: auto;
+  background: #f7f8fa;
+  padding: 14px 14px 20px 14px;
+  border-radius: 5px 5px 5px 5px;
+
+  .header {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    .searchInner {
+      margin-left: auto;
+      width: 200px;
+    }
+    // padding: 20px;
+  }
+  .mainTable {
+    height: calc(100% - 36px);
+  }
+}

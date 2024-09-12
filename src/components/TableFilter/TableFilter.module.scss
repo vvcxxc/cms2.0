@@ -1,0 +1,49 @@
+.btn {
+  height: 24px;
+  border-radius: 6px 6px 6px 6px;
+  padding: 5px;
+  > span {
+    font-size: 14px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+  }
+  :global(.cs-button) {
+    color: #464e54;
+  }
+}
+
+.img {
+  width: 16px;
+  margin-right: 4px;
+}
+.filter {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  > .span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #35363b;
+    display: flex;
+    width: 74px;
+  }
+}
+.box {
+  width: 100%;
+  min-height: 100px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 14px;
+}
+
+.textColor {
+  color: #5a84ff !important;
+  > button > span {
+    color: #5a84ff !important;
+  }
+}

@@ -1,0 +1,109 @@
+// ===============================
+// 基本颜色
+$--cms-transparent: transparent;
+
+// 主要色-1
+$--cms-color-primary-1: #3d6eff;
+$--cms-color-primary-1-light-1: #498ff0;
+$--cms-color-primary-1-light-2: #5a84ff;
+$--cms-color-primary-1-light-3: #252d46;
+$--cms-color-primary-1-light-4: #2d8bff;
+$--cms-color-primary-1-light-5: #73eeff;
+$--cms-color-primary-1-light-6: #55c4ff;
+$--cms-color-primary-1-light-7: #226fec;
+$--cms-color-primary-1-light-8: #3161ee;
+// 主要色-2
+$--cms-color-primary-2: #febf72;
+
+// 状态色
+$--cms-color-success: #57d05b; // 完成、成功
+$--cms-color-success-1: #60a791; // 完成、成功
+$--cms-color-info: #909399; // 常规
+$--cms-color-warning: #f7942b; // 警告
+$--cms-color-warning-dark: #e6673b;
+$--cms-color-warning-dark-1: #27211a;
+$--cms-color-warning-darker: #db4931;
+$--cms-color-error: #d85161; // 错误
+$--cms-color-error-light: #a45769;
+$--cms-color-error-light-1: #ff7474;
+
+// 背景色
+$--cms-color-bg-1: #101010;
+$--cms-color-bg-2: #17171b;
+$--cms-color-bg-3: #101014;
+$--cms-color-bg-4: #252529;
+$--cms-color-bg-5: #28292a;
+$--cms-color-bg-6: #1f1f23;
+$--cms-color-bg-7: #2b2b2f;
+$--cms-color-bg-8: #262c33;
+$--cms-color-bg-9: #171a1f;
+$--cms-color-bg-10: #303640;
+$--cms-color-bg-11: #202124;
+$--cms-color-bg-12: #36373b;
+$--cms-color-bg-13: #1e1e1e;
+$--cms-color-bg-14: #323233;
+$--cms-color-bg-15: #453b30;
+
+// 字体
+$--cms-text-color-primary: #f0f0f1; // 大标题、主要、正式、主要
+$--cms-text-color-primary-1: #fff;
+$--cms-text-color-primary-2: #dcdcdd;
+$--cms-text-color-regular: #949494; // 小标题、辅助、常规
+$--cms-text-color-regular-1: #99999a;
+$--cms-text-color-regular-2: #646465;
+$--cms-text-color-regular-3: #d3d3d3;
+$--cms-text-color-disabled: #cccccc; // 其他字体、辅助、禁用
+$--cms-text-color-dark: #3f3f44; // 输入框提示
+$--cms-text-color-dark-1: #686869;
+$--cms-text-el-input-color: #d7dde0; // el-input输入框 字体颜色
+
+// 字号
+$--cms-font-size-extra-large: 20px; // 超大
+$--cms-font-size-large: 18px; // 大
+$--cms-font-size-medium: 16px; // 中等
+$--cms-font-size-base: 14px; // 基本
+$--cms-font-size-small: 13px; // 小号
+$--cms-font-size-extra-small: 12px; // 超小
+$--cms-font-weight-primary: 500; // 加粗度
+$--cms-font-line-height-primary: 24px; // 主要行高
+
+// 边框
+$--cms-border-width-base: 1px; // 基本线粗
+$--cms-border-style-base: solid; // 基本线型
+$--cms-border-color-base: #2b2b2e; // 基本颜色
+$--cms-border-color-light: #ffffff; // 浅色
+$--cms-border-color-light-1: #2c2c2f; // 浅色
+$--cms-border-color-dark: #26272d; // 深色
+$--cms-border-color-dark-1: #1f1f23;
+$--cms-border-color-dark-2: #262626;
+$--cms-border-color-dark-3: #494949;
+$--cms-border-color-dark-4: #4d4d4d;
+$--cms-border-color-dark-5: #4e4e4e;
+$--cms-border-color-dark-6: #2f2f2f;
+$--cms-border-color-darker: #202020; // 更深色
+$--cms-border-color-darker-1: #181818;
+// 基本边框
+$--cms-border-base: var($--cms-border-width-base) var($--cms-border-style-base)
+  var($--cms-border-color-base);
+
+$--cms-border-radius-base: 4px; // 基本圆角
+$--cms-border-radius-base-1: 6px;
+$--cms-border-radius-small: 2px; // 小角度圆角
+$--cms-border-radius-round: 20px; // 大角度圆角
+$--cms-border-radius-circle: 100%; // 圆形
+
+// 基本阴影
+$--cms-box-shadow-base: 0 2px 4px rgba(0, 0, 0, 0.12),
+  0 0 6px rgba(0, 0, 0, 0.04);
+// 浅色阴影
+$--cms-box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+
+// 滚动条
+$--cms-scrollbar-base: #34363c;
+$--cms-scrollbar-hover: #34363c;
+$--cms-scrollbar-active: #34363c;
+
+//选项卡选中背景色
+$--cms-tab-active-base: rgba(254, 191, 114, 0.1);
+
+// @include ssu-theme('industrialBlack');

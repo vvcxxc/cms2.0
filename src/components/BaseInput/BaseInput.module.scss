@@ -1,0 +1,76 @@
+.input {
+  width: 100%;
+  height: 100%;
+  /* 移除边框 */
+  border: none;
+  /* 可选：如果希望去除其他可能存在的用户代理样式 */
+  /* 这些样式因浏览器而异，可能会对输入框外观产生影响 */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* 可选：强制覆盖一些常见浏览器样式 */
+  /* 清除默认的内边距和外边距 */
+  padding: 0;
+  margin: 0;
+  /* 清除背景颜色 */
+  background-color: transparent;
+  /* 清除轮廓样式 */
+  outline: none;
+  /* 清除文字样式 */
+  font: unset;
+  color: #646464;
+  /* 清除其他可能的样式 */
+}
+.input::placeholder {
+  color: #929ab1;
+}
+
+.baseInput {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .input {
+    border-radius: 4px;
+    padding: 0 6px;
+    height: calc(100% - 6px);
+    border: 1px solid transparent;
+    padding: 0 6px;
+    transition: all 0.1s ease-in;
+    &:focus {
+      border: 1px solid #5a84ff;
+    }
+  }
+}
+
+:global(.information-table) {
+  .hover {
+    // display: none;
+  }
+  .hasHover {
+    display: inline;
+    color: #646464;
+  }
+}
+:global(.information-table .row--hover) {
+  .hover {
+    display: block;
+  }
+  .hasHover {
+    // display: none;
+  }
+  .baseInput {
+    .input {
+      border-radius: 4px;
+      padding: 0 6px;
+      background: #fff;
+      height: calc(100% - 6px);
+      border: 1px solid #d9d9d9;
+      &:focus {
+        border: 1px solid #5a84ff;
+      }
+    }
+  }
+}

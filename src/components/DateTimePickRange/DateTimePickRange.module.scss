@@ -1,0 +1,15 @@
+.DateTimePickRange {
+  // width: 472px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  :global(.cs-date-editor--datetime)  {
+    width: 190px !important;
+  }
+  .label {
+    margin-right: 10px;
+  }
+  .line {
+    margin: 0 10px;
+  }
+}

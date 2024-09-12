@@ -1,0 +1,39 @@
+.variable {
+  width: 100%;
+  max-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .select {
+    font-size: 14px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    color: #5a84ff;
+    cursor: pointer;
+  }
+  .content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .text {
+      font-size: 14px;
+      font-family: PingFang SC, PingFang SC;
+      font-weight: 400;
+      color: #5a84ff;
+      cursor: pointer;
+      &:hover {
+        color: #134bf3;
+      }
+    }
+    > img {
+      cursor: pointer;
+    }
+  }
+}
+.selectVariable {
+  :global(.cs-input__inner) {
+    padding-right: 10px;
+  }
+}

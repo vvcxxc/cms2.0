@@ -1,0 +1,28 @@
+.renderer {
+  position: relative;
+  // overflow: hidden;
+  padding: 10px;
+}
+.miniMap {
+  width: 200px;
+  height: 120px;
+  position: absolute;
+  left: calc(100% - 215px);
+  bottom: calc(100% - 130px);
+  border: 1px solid #ccc;
+  z-index: 99;
+  background-color: #fff;
+}
+
+.toolBar {
+  width: 46px;
+  > div {
+    width: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: none !important;
+    padding: 0;
+  }
+}

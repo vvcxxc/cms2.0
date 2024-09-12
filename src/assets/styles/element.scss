@@ -1,0 +1,20 @@
+// styles/element/index.scss
+// we can add this to custom namespace, default is 'el'
+
+
+@forward 'element-plus/theme-chalk/src/mixins/config.scss' with (
+  $namespace: 'cs'
+);
+// ...
+
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    primary: (
+      'base': #5a84ff,
+    ),
+    info: (
+      'base': #8b9ca4,
+    ),
+  )
+);
+

@@ -1,0 +1,60 @@
+.btn {
+  height: 24px;
+  border-radius: 6px 6px 6px 6px;
+  padding: 5px;
+  padding: 5px 10px;
+  color: #464e54 !important;
+  margin-left: 0 !important;
+
+  > span {
+    font-size: 14px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+  }
+
+  :global(.cs-button) {
+    color: #464e54;
+  }
+}
+
+.btn:hover {
+  background-color: transparent !important;
+  opacity: 1 !important;
+}
+.btn:active {
+  background-color: transparent !important;
+}
+.img {
+  width: 16px;
+  margin-right: 4px;
+}
+.status {
+  &:hover {
+    .img {
+      filter: invert(49%) sepia(100%) saturate(6281%) hue-rotate(222deg)
+        brightness(99%) contrast(99%);
+      opacity: 1;
+    }
+    > span {
+      color: #265cfb !important;
+    }
+  }
+  color: #464e54;
+}
+.add {
+  .iconFont {
+    font-size: 19px;
+    color: #5a84ff;
+  }
+
+  &:hover {
+    .iconFont {
+      font-size: 19px;
+      color: #265cfb;
+    }
+    > span {
+      color: #265cfb !important;
+    }
+  }
+  color: #464e54;
+}

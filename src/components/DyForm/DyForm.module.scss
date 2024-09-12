@@ -1,0 +1,40 @@
+.formStyle {
+  .formItemLabel {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 0 0 auto;
+    font-size: var(--cs-form-label-font-size);
+    color: var(--cs-text-color-regular);
+    height: 32px;
+    line-height: 32px;
+    padding: 0 12px 0 0;
+    box-sizing: border-box;
+    > img {
+      margin-left: 10px;
+    }
+  }
+  :global(.cs-select) {
+    width: 100%;
+  }
+  :global(.cs-form--inline .cs-form-item) {
+    width: 46%;
+  }
+  :global(.cs-form--inline .cs-form-item:nth-last-of-type(2n)) {
+    margin-right: 0;
+  }
+}
+.optionLabel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.formitemPropsLabel {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.itemDistance {
+  margin-bottom: 20px !important;
+}

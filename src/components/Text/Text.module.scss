@@ -1,0 +1,6 @@
+.truncated {
+  // 超出显示省略号
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

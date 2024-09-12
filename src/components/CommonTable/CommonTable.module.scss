@@ -1,0 +1,11 @@
+.CommonTable {
+  width: 100%;
+  max-height: 490px;
+  overflow: auto;
+}
+
+.table {
+  :global(.custom-td-action) {
+    margin-top: -3px !important;
+  }
+}

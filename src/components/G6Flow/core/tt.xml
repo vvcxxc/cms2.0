@@ -1,0 +1,22 @@
+<ProcessflowAppearance xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <启动>
+    <x>120</x>
+    <y>60</y>
+  </启动>
+  <触发信号监听><x>130</x><y>220</y></触发信号监听>
+  <变量读取><x>290</x><y>380</y></变量读取>
+  <扩展步骤><x>290</x><y>540</y></扩展步骤>
+  <触发信号复位监听><x>290</x><y>700</y></触发信号复位监听>
+  <通用步骤><x>290</x><y>860</y></通用步骤>
+  <变量下发><x>290</x><y>1020</y></变量下发>
+  <结束><x>290</x><y>1180</y></结束>
+  <参数变量下发步骤><x>518.5714285714287</x><y>198.57142857142858</y></参数变量下发步骤>
+  <启动_触发信号监听><controlPoints><x>120</x><y>140</y></controlPoints><endPoint><x>128.0625</x><y>189</y></endPoint><startPoint><x>121.9375</x><y>91</y></startPoint></启动_触发信号监听>
+  <触发信号监听_变量读取><controlPoints><x>130</x><y>300</y></controlPoints><endPoint><x>259</x><y>349</y></endPoint><startPoint><x>161</x><y>251</y></startPoint></触发信号监听_变量读取>
+  <变量读取_扩展步骤><controlPoints><x>290</x><y>460</y></controlPoints><endPoint><x>290</x><y>509</y></endPoint><startPoint><x>290</x><y>411</y></startPoint></变量读取_扩展步骤>
+  <扩展步骤_触发信号复位监听><controlPoints><x>290</x><y>620</y></controlPoints><endPoint><x>290</x><y>669</y></endPoint><startPoint><x>290</x><y>571</y></startPoint></扩展步骤_触发信号复位监听>
+  <触发信号复位监听_通用步骤><controlPoints><x>290</x><y>780</y></controlPoints><endPoint><x>290</x><y>829</y></endPoint><startPoint><x>290</x><y>731</y></startPoint></触发信号复位监听_通用步骤>
+  <通用步骤_变量下发><controlPoints><x>290</x><y>940</y></controlPoints><endPoint><x>290</x><y>989</y></endPoint><startPoint><x>290</x><y>891</y></startPoint></通用步骤_变量下发>
+  <变量下发_结束><controlPoints><x>290</x><y>1100</y></controlPoints><endPoint><x>290</x><y>1149</y></endPoint><startPoint><x>290</x><y>1051</y></startPoint></变量下发_结束>
+  <_><endPoint><x>329.05511811023626</x><y>349</y></endPoint><startPoint><x>479.5163104611924</x><y>229.57142857142858</y></startPoint></_>
+  </ProcessflowAppearance>

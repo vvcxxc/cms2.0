@@ -1,0 +1,116 @@
+.information-table .vxe-table--render-default .is--checked.vxe-cell--checkbox {
+  color: #5a84ff;
+}
+
+.information-table-base-row {
+  &:hover {
+    background: #f3f3f3 !important;
+  }
+
+  .vxe-table--render-default.size--mini .vxe-body--column.col--ellipsis {
+    height: 38px !important;
+  }
+}
+
+.information-table {
+  .information-table-base-header {
+    .header-tip-config-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  .vxe-body--column.col--ellipsis {
+    font-size: 14px;
+    font-weight: 400;
+    background-image: linear-gradient(#e4e7ed, #e4e7ed),
+      linear-gradient(#e4e7ed, #e4e7ed);
+    background-repeat: no-repeat;
+    background-size: 1px 100%, 100% 1px;
+    background-position: 100% 0, 100% 100%;
+    // color: #333333;
+  }
+
+  .vxe-table--render-default.size--small {
+    .information-table-base-header {
+      background: #dbdfe7;
+
+      .vxe-header--column.col--ellipsis {
+        height: 38px !important;
+        font-size: 16px;
+        font-weight: 400;
+        color: #35363b;
+      }
+    }
+
+    .vxe-body--column.col--ellipsis {
+      height: 42px !important;
+    }
+  }
+
+  .vxe-table--render-default.size--mini {
+    .vxe-body--column.col--ellipsis {
+      height: 38px !important;
+    }
+
+    .information-table-base-header {
+      background: #dbdfe7;
+
+      .vxe-header--column.col--ellipsis {
+        height: 38px !important;
+        font-size: 14px;
+        font-weight: 400;
+        color: #35363b;
+      }
+    }
+  }
+}
+
+// 右侧菜单
+.mx-context-menu {
+  min-width: 132px;
+  width: fit-content;
+  background: #ffffff;
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.16);
+  padding: 0px;
+  display: grid;
+  grid-template-rows: 1fr;
+  .mx-context-menu-item-wrapper {
+    min-width: 100%;
+    padding: 4px;
+    height: 40px;
+    border-bottom: 1px solid #e3e6ed;
+    .mx-context-menu-item {
+      cursor: pointer;
+      border-radius: 6px;
+      width: 100%;
+      padding: 0;
+      height: 100%;
+    }
+  }
+
+  .mx-context-menu-item-wrapper:last-child {
+    border-bottom: none;
+  }
+
+  .table-context-menu-item-c {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 6px 0 6px 11px;
+
+    .icon-box {
+      width: auto;
+    }
+
+    .label-c {
+      font-size: 14px;
+      font-family: PingFang SC, PingFang SC;
+      font-weight: 400;
+      color: #333333;
+    }
+  }
+}

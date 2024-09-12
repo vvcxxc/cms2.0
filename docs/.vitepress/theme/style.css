@@ -1,0 +1,27 @@
+:root {
+  /* 标题 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(
+    135deg,
+    #fff886 10%,
+    #f072b6 100%
+  );
+
+  /* 图标背景 */
+  --vp-home-hero-image-background-image: linear-gradient(
+    135deg,
+    #fff886 10%,
+    #f072b6 100%
+  );
+  --vp-home-hero-image-filter: blur(150px);
+  --vp-c-indigo-1: #f072b6;
+  --vp-c-indigo-2: #f072b6;
+  --vp-c-indigo-3: #f072b6;
+  /* 图标背景 */
+  --vp-home-hero-image-background-image: linear-gradient(
+    135deg,
+    #f6ceec 10%,
+    #d939cd 100%
+  );
+  --vp-home-hero-image-filter: blur(150px);
+}

@@ -1,0 +1,22 @@
+{
+  "MesSuite": {
+    "向上添加一行": "Add a row above",
+    "向下添加一行": "Add a row below",
+    "删除": "Delete",
+    "不能为空": "Cannot be empty",
+    "暂无数据": "No data",
+    "确定": "Confirm",
+    "查询": "search",
+    "确认": "Confirm",
+    "取消": "Cancel",
+    "追溯报表": "Traceability report",
+    "报表配置": "Report configuration",
+    "共": "Total",
+    "页": "Pages",
+    "当前第": "Current",
+    "每页": "Per Page",
+    "条记录": "Records",
+    "第": "th",
+    "请选择": "Please select"
+  }
+}

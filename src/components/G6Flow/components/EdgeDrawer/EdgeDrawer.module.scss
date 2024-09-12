@@ -1,0 +1,23 @@
+.formDrawer {
+  margin-left: 40px;
+}
+.drawContent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  .condition {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-top: 1px solid #ddd;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    color: #333;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}

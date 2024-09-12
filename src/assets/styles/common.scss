@@ -1,0 +1,56 @@
+// // 修正日期时间样式
+// .light-datetime-picker {
+//     .cs-input__inner {
+//       background: #fff !important;
+//       box-shadow: none !important;
+//     }
+//     .cs-input.is-disabled .cs-input__inner {
+//       background: var(--el-disabled-bg-color) !important;
+//     }
+  
+//     &.cs-popper.is-light {
+//       padding: 0 !important;
+//       max-width: inherit;
+//     }
+//   }
+  
+//   // 组件下的element样式
+//   .light-element-ui {
+//     .cs-input__inner:not(el-overwrite-ignore *) {
+//       background-color: #fff !important;
+//       color: #35363b !important;
+//     }
+  
+//      .cs-input__inner:hover {
+//       box-shadow: none !important;
+//     }
+  
+//      .cs-input__inner:focus {
+//       box-shadow: none !important;
+//     }
+  
+//      .cs-input.is-disabled .cs-input__inner {
+//       box-shadow: none !important;
+//       color: #999 !important;
+//     }
+  
+//      .cs-input-group__append,
+//     .cs-input-group__prepend {
+//       padding: 0 14px !important;
+//     }
+  
+//      .cs-input-group {
+//       box-shadow: 0 0 0 1px var(--el-input-border-color, var(--el-border-color)) inset !important;
+//       border-radius: 3px !important;
+//     }
+  
+//      .cs-input {
+//       box-shadow: 0 0 0 1px var(--el-input-border-color, var(--el-border-color)) inset !important;
+//       border-radius: 3px !important;
+//     }
+  
+//      .cs-input.is-focus .cs-input__inner {
+//       box-shadow: none !important;
+//     }
+//   }
+  

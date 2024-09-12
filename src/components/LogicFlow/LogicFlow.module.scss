@@ -1,0 +1,17 @@
+.logicFlow {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  .beautify {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    z-index: 1;
+  }
+  .xmlbeautify {
+    position: absolute;
+    right: 150px;
+    top: 30px;
+    z-index: 1;
+  }
+}

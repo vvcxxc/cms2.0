@@ -1,0 +1,14 @@
+.Log {
+  height: 100%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  .toolSpace {
+    margin: 0 0px;
+  }
+}
+.mainTable {
+  height: calc(100% - 70px);
+}

@@ -1,0 +1,48 @@
+.MaterialLoading {
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: 100%;
+  .MaterialLoadingTitle {
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+  }
+  .MaterialLoadingContent {
+    padding: 0 20px 20px;
+    width: 100%;
+    height: calc(100% - 30px);
+    overflow: auto;
+    .MaterialLoadingLabelInfo {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      .MaterialLoadingLabel {
+        margin-right: 20px;
+      }
+    }
+    .MaterialLoadingTable {
+      width: 100%;
+      height: calc(100% - 100px);
+    }
+    .MaterialLoadingfinish {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .finishBtn {
+        width: 100px;
+        height: 40px;
+        background-color: #1890ff;
+        color: #fff;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+      }
+    }
+  }
+}

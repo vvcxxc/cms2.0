@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  height: 100%;
+  .left {
+    width: 373px;
+  }
+  .right {
+    flex: 1;
+    margin-left: 10px;
+  }
+}
+.drawer {
+  background: #fff;
+}

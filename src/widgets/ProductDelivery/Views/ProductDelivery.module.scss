@@ -1,0 +1,59 @@
+.content {
+  width: 600px;
+  height: 60px;
+  border: 1px dashed #ccc;
+  position: relative;
+
+  .svg {
+    width: 100%;
+    height: 100%;
+  }
+  .sum {
+    position: absolute;
+    right: 23px;
+    top: 0px;
+    font-size: 12px;
+  }
+}
+.debugger {
+  max-height: 800px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  .work {
+    margin: 2px;
+    padding: 0;
+    font-size: 12px;
+    color: red;
+  }
+  .box {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+    justify-content: space-between;
+    .p {
+      margin: 2px;
+      padding: 0;
+      font-size: 12px;
+    }
+  }
+}
+.dialog {
+  :global(.cs-dialog__body) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  :global(.cs-dialog__header) {
+    padding-right: 16px;
+    padding-top: 0;
+    padding-bottom: 16px;
+  }
+
+  .boxInfo {
+    color: #676767;
+    font-size: 13px;
+  }
+}
+
+.svgRect {
+  color: transparent;
+}

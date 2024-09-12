@@ -1,0 +1,54 @@
+.light-datetime-picker,
+.light-element-ui {
+  // .cs-input__inner {
+  //   background: #fff !important;
+  //   box-shadow: none !important;
+  // }
+  // .cs-input.is-disabled .cs-input__inner {
+  //   background: var(--el-disabled-bg-color) !important;
+  // }
+
+  &.cs-popper.is-light {
+    max-width: inherit;
+  }
+
+
+
+  &.cs-popper.is-light {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
+  &.cs-popper.is-light .cs-popper__arrow:before {
+    background-color: #fff !important;
+  }
+
+}
+.light-element-ui {
+  
+
+   .cs-input-group__append,
+  .cs-input-group__prepend {
+    padding: 0 14px !important;
+  }
+
+   .cs-input-group {
+    box-shadow: 0 0 0 1px var(--el-input-border-color, var(--el-border-color)) inset !important;
+    border-radius: 3px !important;
+  }
+
+   .cs-input {
+    box-shadow: 0 0 0 1px var(--el-input-border-color, var(--el-border-color)) inset !important;
+    border-radius: 3px !important;
+  }
+
+ 
+}
+.cs-popper.formula-popover {
+  max-width: unset;
+  background: #ffffff !important;
+  box-shadow: 0px 2px 8px 1px #e4e7e8;
+  border-radius: 2px 2px 2px 2px;
+  border: 1px solid #e6e8ef;
+  padding: 0 !important;
+}

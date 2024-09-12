@@ -1,0 +1,22 @@
+.tip {
+  font-size: 16px;
+  margin: 20px;
+  margin-left: 47px;
+}
+.box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+
+  > label {
+    font-size: 14px;
+    margin-right: 10px;
+    display: flex;
+    width: 40px;
+  }
+  .input {
+    width: calc(100% - 50px);
+  }
+}

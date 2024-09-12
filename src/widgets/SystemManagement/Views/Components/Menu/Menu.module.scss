@@ -1,0 +1,41 @@
+.menu {
+  width: 240px;
+  padding: 10px;
+  height: 100%;
+  border: 1px solid #e9e7e7;
+  border-left: none;
+  // border-right: none;
+  // border-radius: 3px;
+  .itemMenu {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  :global(.is-active) {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  .groupMenu {
+    width: 100%;
+    // height: 35px;
+    border-radius: 5px;
+    :global(.cs-sub-menu__title) {
+      height: 35px;
+      border-radius: 5px;
+    }
+    .item {
+      height: 35px;
+      border-radius: 5px;
+      margin: 5px 0;
+    }
+  }
+  :global(.cs-menu-item-group__title) {
+    // display: none;
+    padding: 1px 0;
+  }
+}
+.menuContent {
+  width: auto;
+  height: 100%;
+}

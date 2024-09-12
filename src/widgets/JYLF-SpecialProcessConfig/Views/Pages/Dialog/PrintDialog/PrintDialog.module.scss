@@ -1,0 +1,74 @@
+.labelLine {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  .label {
+    width: fit-content;
+    margin-right: 20px;
+  }
+  .delete {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #f56c6c;
+    border-radius: 4px;
+  }
+}
+.tableLine,
+.dataLine {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+
+  .formLine {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    .label {
+      width: 120px;
+      padding-right: 10px;
+      box-sizing: border-box;
+      text-align: right;
+    }
+
+    .required::before {
+      content: '*';
+      color: #f5222d;
+    }
+    .val {
+      width: 200px;
+    }
+    .more {
+      width: 25px;
+      height: 15px;
+      background: #bcceff;
+      border-radius: 2px 2px 2px 2px;
+      align-self: center;
+      cursor: pointer;
+    }
+  }
+}
+.tableLine {
+  align-items: flex-start;
+  .tableLabel {
+    margin-top: 10px;
+    width: 120px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    text-align: right;
+  }
+  .table {
+    width: calc(100% - 120px);
+    height: 250px;
+  }
+}

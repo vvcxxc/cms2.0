@@ -1,0 +1,42 @@
+.labelLine {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  .label {
+    width: fit-content;
+    margin-right: 20px;
+  }
+  .delete {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #f56c6c;
+    border-radius: 4px;
+  }
+}
+
+.formLine {
+  width: 100%;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  .label {
+    width: 80px;
+  }
+  .required::before {
+    content: '*';
+    color: #f5222d;
+  }
+  .val {
+    width: calc(100% - 80px);
+  }
+}

@@ -1,0 +1,14 @@
+.ConsoleManagement {
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: calc(100% - 10px);
+  border: 1px solid #dbdbdb;
+  margin-bottom: 10px;
+  :global(.cs-tabs__content) {
+    padding: 0 !important;
+  }
+  :global(.cs-tabs__header) {
+    margin-bottom: 10px !important;
+  }
+}

@@ -1,0 +1,75 @@
+.relationDialog {
+  width: 100%;
+}
+.select {
+  font-size: 14px;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  color: #5a84ff;
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  .key {
+    font-size: 12px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    color: #35363b;
+    margin-right: 10px;
+  }
+}
+
+.table {
+  width: 100%;
+  height: calc(100% - 100px);
+}
+
+.selected {
+  cursor: pointer;
+  font-size: 14px;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  &:hover {
+    color: #5a84ff;
+  }
+}
+.tagContent {
+  align-items: flex-start;
+  align-content: flex-start !important;
+  display: flex;
+  justify-content: flex-start !important;
+  flex-wrap: wrap;
+}
+.flows {
+  width: 100%;
+  height: 61px;
+  box-shadow: 0 0 0 1px var(--cs-input-border-color, var(--cs-border-color))
+    inset;
+  border-radius: var(--cs-input-border-radius, var(--cs-border-radius-base));
+  cursor: pointer;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+  overflow: auto;
+  flex-wrap: wrap;
+  padding-right: 0;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding-bottom: 0;
+  &:hover {
+    box-shadow: 0 0 0 1px #c0c4cc inset;
+  }
+}
+.flowTag {
+  display: inline;
+  color: #b7bac0;
+  margin-top: -5px;
+  margin-left: 6px;
+}

@@ -1,0 +1,102 @@
+.ExportSettingDialog {
+  .container {
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    .currentVersion {
+      width: 100%;
+      height: 42px;
+      background: #f0f3fd;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      padding-left: 22px;
+      box-sizing: border-box;
+      .info {
+        color: #5a84ff;
+        position: relative;
+      }
+      .info::after {
+        content: '';
+        position: absolute;
+        width: 16px;
+        height: 3.5px;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 100%);
+        background-image: url('@/assets/images/setting.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+    }
+    .baseInfo {
+      padding: 30px 0 20px 22px;
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      display: grid;
+      grid-template-columns: auto auto auto; /*有几列，每列有多大*/
+      grid-template-rows: auto auto auto; /*每一份（1fr）是网格容器宽度的几之一*/
+      grid-gap: 20px; /*上下左右间隔*/
+    }
+    .formInfo {
+      padding: 30px 0 20px;
+      box-sizing: border-box;
+      width: 100%;
+      height: auto;
+      .formLine {
+        display: flex;
+        margin-bottom: 10px;
+        .formItem {
+          width: 50%;
+          display: flex;
+          align-items: center;
+        }
+        .formLabel {
+          width: 100px;
+          padding-left: 18px;
+          box-sizing: border-box;
+        }
+        .formTextarea {
+          width: calc(100% - 100px);
+        }
+      }
+    }
+
+    .mainTable {
+      margin-top: 20px;
+      width: 100%;
+      height: 356px;
+      background: #f7f8fa;
+      border-radius: 0px 0px 0px 0px;
+      border: 1px solid #e3e6ed;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10px 10px;
+      .tableItem1,
+      .tableItem2 {
+        height: 100%;
+        width: 270px;
+        .tableBtnList {
+          width: 100%;
+          height: 42px;
+          display: flex;
+          align-items: center;
+          .title {
+            font-weight: bold;
+            font-size: 16px;
+            color: #333333;
+            margin-right: 10px;
+          }
+        }
+        .tableContent {
+          width: 100%;
+          height: calc(100% - 42px);
+        }
+      }
+      .tableItem2 {
+        width: calc(100% - 280px);
+      }
+    }
+  }
+}

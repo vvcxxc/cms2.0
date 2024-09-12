@@ -1,0 +1,54 @@
+.content {
+  width: 100%;
+  height: 100%;
+
+  .list {
+    width: 100%;
+    height: calc(100% - 90px);
+    .checkBtn {
+      color: #1890ff;
+      cursor: pointer;
+    }
+  }
+  .headerContent {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .header {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .label {
+        margin: 0 10px;
+      }
+    }
+    .save {
+      width: 100px;
+      height: 28px;
+    }
+    .box {
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      column-gap: 8px;
+      > label {
+        font-size: 13px;
+        color: #333;
+        white-space: nowrap;
+      }
+    }
+  }
+}

@@ -1,0 +1,227 @@
+.content {
+  width: 100%;
+  height: 100%;
+
+  .header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background: linear-gradient(
+      103deg,
+      #448afe 0%,
+      rgba(103, 157, 252, 0.28) 80%,
+      rgba(256, 256, 256, 0.28) 100%
+    );
+
+    .left {
+      display: flex;
+      align-items: center;
+      font-weight: 500;
+      font-size: 20px;
+      color: #fff;
+    }
+    .right {
+      display: flex;
+      align-items: center;
+      justify-items: flex-end;
+    }
+  }
+
+  .loginBody {
+    width: 100%;
+    height: calc(100% - 50px);
+    background-image: url('@/assets/imgs/stationBoardBackground.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    .loginBox {
+      width: 597px;
+      height: 590px;
+      background: rgba(256, 256, 256, 0.8);
+      box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.16);
+      border-radius: 29px;
+      border: 1px solid #e4e4e4;
+      position: absolute;
+      right: 185px;
+      top: 116px;
+      .loginTitle {
+        width: 100%;
+        height: 128px;
+        font-size: 32px;
+        color: #2a1e17;
+        padding: 20px 38px 0;
+        box-sizing: border-box;
+      }
+      .formBox {
+        padding: 0 88px 10px 109px;
+        .formKey {
+          font-weight: 400;
+          font-size: 16px;
+          color: #8b9ca4;
+          margin: 20px 0 9px;
+        }
+        .formKey::before {
+          content: '*';
+          color: #ff2727;
+        }
+      }
+      .loginBtn {
+        margin-top: 35px;
+        width: 400px;
+        height: 50px;
+        background: #4487ec;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 20px;
+        color: #ffffff;
+      }
+    }
+  }
+
+  .stationBody {
+    width: 100%;
+    height: calc(100% - 50px);
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #e8eef5;
+    .contenter {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      background: #ffffff;
+      border-radius: 0px 0px 5px 5px;
+      padding: 10px 20px;
+      box-sizing: border-box;
+      .label {
+        width: 150px;
+        height: 44px;
+        background-color: #5d9ae6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 400;
+        font-size: 18px;
+        color: #ffffff;
+        position: absolute;
+        left: 18px;
+        top: 0;
+        transform: translate(0, -100%);
+      }
+      .carousel {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .contenterBtn {
+      width: fit-content;
+      height: 30px;
+      padding: 0 10px;
+      background-color: #5d9ae6;
+      color: #ffffff;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      position: absolute;
+      right: 10px;
+      top: 5px;
+    }
+    .line {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+      .key {
+        width: 80px;
+      }
+      .val1 {
+        width: 180px;
+      }
+      .greenLight,
+      .redLight {
+        background-color: #1bbf4f;
+        width: 16px;
+        height: 16px;
+        border-radius: 8px;
+      }
+      .redLight {
+        background-color: #ff2727;
+      }
+      .ngReasonBox {
+        width: calc(100% - 80px);
+      }
+    }
+    .sop {
+      width: 60%;
+      height: 100%;
+      padding: 40px 0 0;
+      background: #f7f7f7;
+      box-sizing: border-box;
+    }
+    .info {
+      width: 40%;
+      height: 100%;
+      padding: 0 10px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .prod {
+        width: 100%;
+        height: 20%;
+        background: #f7f7f7;
+        padding-top: 40px;
+      }
+      .material {
+        width: 100%;
+        height: 24%;
+        background: #f7f7f7;
+        padding-top: 40px;
+        position: relative;
+      }
+      .params {
+        width: 100%;
+        height: 29%;
+        background: #f7f7f7;
+        padding-top: 40px;
+      }
+      .judge {
+        width: 100%;
+        height: 23%;
+        background: #f7f7f7;
+        padding-top: 40px;
+        position: relative;
+        .submitLine {
+          width: 100%;
+          margin-top: 10px;
+          .judgeBtn {
+            width: fit-content;
+            height: 30px;
+            padding: 0 10px;
+            background-color: #5d9ae6;
+            color: #ffffff;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            float: right;
+          }
+        }
+      }
+      .table {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

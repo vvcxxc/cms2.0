@@ -1,0 +1,19 @@
+.searchTool {
+  display: flex;
+  align-items: center;
+  // justify-content: space-between;
+  margin-top: 14px;
+}
+.formItem {
+  margin: 0 !important;
+  margin-left: 13px !important;
+}
+
+
+.workSection {
+  height: 100%;
+}
+.sectionTable {
+  margin-top: 10px;
+  height: calc(100% - 100px);
+}

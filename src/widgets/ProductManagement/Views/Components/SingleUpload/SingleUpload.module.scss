@@ -1,0 +1,41 @@
+.container {
+  width: 212px;
+
+}
+.abbreviate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  .iconBorder {
+    padding: 18px;
+    border-radius: 2px 2px 2px 2px;
+    border: 1px solid #DDE0E4;
+  }
+}
+.tipWrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.preView {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.popperClass{
+  :global(.cs-upload-dragger) {
+    height: 113px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content: center;
+    color: #35363b;
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+}

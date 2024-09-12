@@ -1,0 +1,11 @@
+.tools {
+  display: flex;
+  align-items: center;
+  .toolSpace{
+    margin-left: 12px;
+  }
+}
+.mainTable {
+  margin-top: 10px;
+  height: calc(100% - 60px);
+}

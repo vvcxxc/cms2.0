@@ -1,0 +1,65 @@
+.parametersWrap {
+  // white-space: nowrap;
+  padding: 30px 70px 5px;
+  // overflow-x: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.parameters {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 150px;
+  height: 168px;
+  background: #ffffff;
+  border-radius: 6px 6px 6px 6px;
+  border: 1px solid #5a84ff;
+  margin: 10px;
+}
+.title {
+  width: 130px;
+  height: 29px;
+  line-height: 29px;
+  background: #5a84ff;
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+  border: 1px solid #5a84ff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0 8px;
+}
+.value {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #5c5c5c;
+  margin: 4px;
+}
+.result {
+  display: flex;
+  width: 130px;
+  padding: 0 10px;
+  height: 31px;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 16px 16px 16px 16px;
+  border: 1px solid #cadeff;
+  color: #1e4a84;
+}
+.ng {
+  color: #ff2929;
+}
+.ok {
+  color: #00af7a;
+}

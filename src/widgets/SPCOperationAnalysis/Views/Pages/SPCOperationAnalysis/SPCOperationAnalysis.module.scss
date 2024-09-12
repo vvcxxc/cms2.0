@@ -1,0 +1,277 @@
+.SPCOperationAnalysis {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  .exportShowVal {
+    color: #5879ec;
+    margin-right: 10px;
+  }
+  .operationAnalysis {
+    width: 100%;
+  }
+  .analysiskey {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: #5879ec;
+  }
+  .analysisSearch {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f3f3f3;
+    border-radius: 5px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    .searchLeft {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      .searchKey {
+        margin: 0 10px;
+        word-break: keep-all;
+      }
+    }
+    .searchRight {
+      width: fit-content;
+      height: 32px;
+      line-height: 32px;
+      background: #5a84ff;
+      border-radius: 3px;
+      padding: 0 14px;
+      font-size: 14px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+
+  .chartTitleList {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    border-bottom: #dbdbdb 1px solid;
+    cursor: pointer;
+
+    .chartTitle,
+    .currentChartTitle {
+      width: fit-content;
+      padding: 0 5px;
+      margin-right: 5px;
+      cursor: pointer;
+    }
+    .currentChartTitle {
+      color: #5a84ff;
+      position: relative;
+      font-weight: bold;
+    }
+    .currentChartTitle::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 2px);
+      width: 22px;
+      height: 3px;
+      background-color: #5a84ff;
+    }
+  }
+
+  .chartContent {
+    width: 100%;
+    height: calc(100% - 150px);
+    overflow-y: auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+    .chartCheck {
+      width: 100%;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      .checkKey {
+        margin: 0 10px;
+      }
+      .checkBtn {
+        margin-left: 16px;
+        width: fit-content;
+        padding: 0 14px;
+        height: 32px;
+        line-height: 32px;
+        cursor: pointer;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 6px 6px 6px 6px;
+        border: 1px solid #c8c8c8;
+        font-size: 14px;
+        color: #35363b;
+      }
+    }
+    .chartList {
+      width: 100%;
+      height: calc(100% - 60px);
+
+      .chartLine {
+        width: 100%;
+        height: calc(50% - 10px);
+
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        .title {
+          width: 100%;
+          height: 60px;
+          line-height: 60px;
+        }
+        .chartBox {
+          width: calc(100% - 600px);
+          height: 100%;
+          background: #ffffff;
+          box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.16);
+          border-radius: 6px;
+          padding: 0 18px;
+          .chart {
+            width: 100%;
+            height: calc(100% - 60px);
+          }
+        }
+        .chartTable {
+          width: 582px;
+          height: 100%;
+          background: #ffffff;
+          box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.16);
+          border-radius: 6px;
+          padding: 0 18px;
+          .table {
+            width: 100%;
+            height: calc(100% - 80px);
+          }
+        }
+      }
+      .chartLine:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    .chartFlex {
+      width: 100%;
+      height: calc(100% - 60px);
+      box-sizing: border-box;
+      padding-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      .chartLeft {
+        width: calc(100% - 694px);
+        height: 100%;
+        background: #ffffff;
+        box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.16);
+        border-radius: 6px;
+        padding: 0 18px;
+        .chartFlexTitle {
+          height: 60px;
+          line-height: 60px;
+          font-weight: bold;
+          color: #35363b;
+        }
+        .chart {
+          width: 100%;
+          height: calc(100% - 60px);
+        }
+      }
+      .chartInfo {
+        width: 694px;
+        height: 100%;
+        padding-left: 20px;
+        box-sizing: border-box;
+        .infoUp {
+          height: 516px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          .infoItem {
+            width: calc(33% - 5px);
+            height: 248px;
+            margin-bottom: 10px;
+            background: #f3f3f3;
+            border-radius: 8px;
+            padding: 0 10px;
+            box-sizing: border-box;
+            .itemTitle {
+              width: 100%;
+              height: 46px;
+              line-height: 46px;
+              text-align: center;
+              font-weight: bold;
+              font-size: 18px;
+              color: #35363b;
+            }
+            .itemLine {
+              width: 100%;
+              height: 42px;
+              background: #ffffff;
+              border-radius: 4px;
+              margin-bottom: 8px;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              padding: 0 10px;
+              box-sizing: border-box;
+              .key {
+                font-size: 14px;
+                color: #35363b;
+              }
+              .val {
+                font-weight: bold;
+                font-size: 16px;
+                color: #5879ec;
+              }
+            }
+          }
+        }
+        .infoDown {
+          width: 100%;
+          height: calc(100% - 516px);
+          background: #f3f3f3;
+          border-radius: 8px;
+          padding: 14px 10px 10px;
+          overflow-y: auto;
+          .downTitle {
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            color: #35363b;
+            margin-bottom: 17px;
+          }
+
+          .lineLabel,
+          .lineItem {
+            width: 100%;
+            display: flex;
+            margin-bottom: 8px;
+            padding: 0 10px;
+          }
+          .lineItem {
+            height: 42px;
+            background: #ffffff;
+            border-radius: 4px;
+            border: 1px solid #e1e1e1;
+            display: flex;
+            align-items: center;
+            .x2 {
+              color: #5a84ff;
+              font-weight: bold;
+            }
+          }
+          .x1,
+          .x2 {
+            flex: 1;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}

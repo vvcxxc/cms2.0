@@ -1,0 +1,54 @@
+.content {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px;
+}
+
+.dyForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  position: relative;
+
+  .headerLeft {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    > div {
+      > form {
+        > div {
+          margin-bottom: 0 !important;
+        }
+      }
+    }
+    :global(.cs-form--inline .cs-form-item) {
+      width: fit-content;
+    }
+  }
+}
+.table {
+  width: 100%;
+  height: calc(100% - 100px);
+}
+
+.btn {
+  margin-left: 0px;
+  width: 80px;
+  z-index: 9;
+}
+
+.icon {
+  color: #8a8a8a;
+  cursor: pointer;
+  &:hover {
+    color: #5a84ff;
+  }
+}
+
+.headerBtn {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}

@@ -1,0 +1,36 @@
+.tools {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  .toolSpace {
+    margin-left: 12px;
+  }
+}
+.mainTable {
+  margin-top: 10px;
+  height: calc(100% - 20px);
+}
+.paramsBtn {
+  color: #5a84ff;
+  border-color: #dbdbdb;
+  background: #ffffff;
+  border-radius: 6px 6px 6px 6px;
+}
+
+.paramSelectBtn {
+  margin-left: auto !important;
+  color: #5a84ff !important;
+}
+
+.confirmContent {
+  height: 125px;
+  border: 1px solid #dde0e4;
+  border-radius: 2px 2px 2px 2px;
+  word-break: break-all;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  overflow: auto;
+}

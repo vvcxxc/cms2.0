@@ -1,0 +1,74 @@
+@keyframes trackingTraceAnimation {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    color: #b0ef4f;
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    color: inherit;
+  }
+}
+
+@keyframes trackingTraceDefaultAnimation {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    color: #b0ef4f;
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    color: inherit;
+  }
+}
+.information-production-tracking-trace-style {
+  .vxe-table--render-default .vxe-table--body-wrapper {
+    background-color: transparent !important;
+  }
+  .vxe-table--render-default .vxe-table--body-wrapper table {
+    background-color: transparent;
+  }
+  .vxe-body--column.col--ellipsis {
+    font-size: inherit !important;
+    color: inherit;
+  }
+  .vxe-table--render-default {
+    color: inherit;
+  }
+  .vxe-table--render-default.size--small {
+    font-size: inherit !important;
+  }
+  .vxe-table--render-default .vxe-body--row.row--current {
+    background-color: transparent !important;
+  }
+  .information-table-base-row {
+    &:hover {
+      background: transparent !important;
+    }
+  }
+}
+
+.information-production-tracking-trace-style.information-table-custom-style {
+  .vxe-body--column.col--ellipsis {
+    font-size: inherit !important;
+    color: inherit;
+  }
+  .vxe-table--render-default {
+    color: inherit;
+  }
+  .vxe-cell--title {
+    padding: 0 2px;
+  }
+}

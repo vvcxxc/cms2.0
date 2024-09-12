@@ -1,0 +1,15 @@
+.dataPreviewSearch {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  .queryBtn {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+}
+.dataPreviewTable {
+  width: 100%;
+  height: 630px;
+}

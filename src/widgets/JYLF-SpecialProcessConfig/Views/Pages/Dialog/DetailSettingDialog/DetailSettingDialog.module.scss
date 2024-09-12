@@ -1,0 +1,39 @@
+.labelLine {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  .label {
+    width: fit-content;
+    margin-right: 20px;
+  }
+  .delete {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #f56c6c;
+    border-radius: 4px;
+  }
+}
+.flexTable {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  .tableLeft {
+    width: 58%;
+  }
+  .tableRight {
+    width: 40%;
+  }
+  .tableContent {
+    height: 250px;
+    width: 100%;
+  }
+}

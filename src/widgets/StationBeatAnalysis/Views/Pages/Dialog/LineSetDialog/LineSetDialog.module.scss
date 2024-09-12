@@ -1,0 +1,121 @@
+.LineSetDialog {
+  width: 100%;
+}
+
+.select {
+  font-size: 14px;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+  color: #5a84ff;
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  height: 28px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+
+  .key {
+    font-size: 12px;
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 400;
+    color: #35363b;
+    margin-right: 10px;
+  }
+}
+
+.table {
+  width: 100%;
+  height: calc(100% - 50px);
+}
+
+.selected {
+  cursor: pointer;
+  font-size: 14px;
+  font-family: PingFang SC, PingFang SC;
+  font-weight: 400;
+
+  &:hover {
+    color: #5a84ff;
+  }
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  padding-top: 42px;
+  box-sizing: border-box;
+  .baseInfo {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    .label {
+      min-width: 80px;
+    }
+    .label2 {
+      min-width: 180px;
+    }
+    .btn {
+      margin-left: 5px;
+      width: 68px;
+      height: 26px;
+      background: #5a84ff;
+      border-radius: 3px 3px 3px 3px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      color: #fff;
+      cursor: pointer;
+      .btnIcon {
+        margin-right: 5px;
+        width: 14px;
+      }
+    }
+
+    .btn:hover {
+      opacity: 0.6;
+    }
+  }
+
+  .mainTable {
+    height: calc(100% - 120px);
+
+    .tableBtnList {
+      width: 100%;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+}
+
+.DialogBtn {
+  height: 32px;
+  width: 120px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #c8c8c8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #35363b;
+  cursor: pointer;
+}
+
+.DialogBtn:hover {
+  opacity: 0.6;
+}
+
+.ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

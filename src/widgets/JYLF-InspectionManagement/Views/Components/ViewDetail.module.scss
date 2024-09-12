@@ -1,0 +1,51 @@
+.ViewDetail {
+  .labelLine {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    .required {
+      color: #f77070;
+    }
+    .label {
+      width: 120px;
+      margin-right: 20px;
+      text-align: right;
+    }
+    .value {
+      width: calc(100% - 140px);
+      text-align: left;
+    }
+    .table {
+      width: calc(100% - 140px);
+      height: 300px;
+    }
+    .more {
+      width: 25px;
+      height: 15px;
+      background: #bcceff;
+      border-radius: 2px 2px 2px 2px;
+      align-self: center;
+      cursor: pointer;
+    }
+  }
+  .checkBtn,
+  .disabledBtn {
+    width: 60px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1890ff;
+    border-radius: 8px;
+    line-height: 1;
+    color: #fff;
+    cursor: pointer;
+  }
+  .checkBtn:hover {
+    background: #40a9ff;
+  }
+
+  .disabledBtn {
+    background: #d9d9d9;
+  }
+}

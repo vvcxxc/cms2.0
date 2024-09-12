@@ -1,0 +1,12 @@
+[
+  {
+    "subs": [
+      { "id": "productBacktrack-export", "name": "产品码回溯-导出" },
+      { "id": "productBacktrack-multExport", "name": "产品码回溯-批量导出" },
+      {
+        "id": "productBacktrack-exportReport",
+        "name": "产品码回溯-导出检验报告"
+      }
+    ]
+  }
+]

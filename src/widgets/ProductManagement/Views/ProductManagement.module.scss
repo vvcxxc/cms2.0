@@ -1,0 +1,95 @@
+.ProductManagement {
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #dbdbdb;
+
+}
+
+.header {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  .searchInner {
+    margin-left: auto;
+    width: 300px;
+  }
+  // padding: 20px;
+}
+.mainTable {
+  height: calc(100% - 86px);
+}
+
+.filter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  > span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #35363b;
+  }
+}
+.box {
+  width: 100%;
+  height: 124px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.processStep {
+  width: 100%;
+  // padding: 8px 8px 24px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  overflow-y: auto;
+  // height: 134px;
+  box-sizing: border-box;
+  .stepItem {
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 80px;
+    height: 75px;
+    background: #FFFFFF;
+    border-radius: 2px 2px 2px 2px;
+    opacity: 1;
+    border: 1px solid #D1D1D1;
+    .stepName {
+      font-size: 14px;
+      display: -webkit-box; /* 必须指定display属性 */
+      overflow: hidden; /* 必须指定overflow属性 */
+      text-overflow: ellipsis; /* 显示省略号 */
+      line-height: 1.5em; /* 每行的高度 */
+      max-height: 4.5em; /* 最多显示四行（包括第四行） */
+      -webkit-line-clamp: 3; /* 只显示前三行 */
+      -webkit-box-orient: vertical; /* 垂直布局 */
+    }
+  }
+  .stepIcon {
+    display: block;
+    margin: 0 10px;
+    &:last-child {
+      display: none;
+    }
+  }
+}
+
+.deleteDialog {
+  height: 125px;
+  border: 1px solid #DDE0E4;
+  border-radius: 2px 2px 2px 2px;
+
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}

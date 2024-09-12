@@ -1,0 +1,22 @@
+.container {
+  height: 560px;
+}
+.currentVersion {
+  // margin-top: 0;
+}
+.mainTable {
+  height: calc(100% - 45px);
+}
+.tools {
+  margin-top: 15px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  .name{
+    margin-right: 10px;
+  }
+  .searchInner {
+    margin-left: auto;
+    width: 200px;
+  }
+}

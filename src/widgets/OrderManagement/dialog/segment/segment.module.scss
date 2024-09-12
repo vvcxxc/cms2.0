@@ -1,0 +1,13 @@
+.segmentDialog {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  .select {
+    width: 380px;
+  }
+  > label {
+    margin-right: 4px;
+  }
+}

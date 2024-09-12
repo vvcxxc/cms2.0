@@ -1,0 +1,13 @@
+.content {
+  display: flex;
+  height: calc(100% - 20px);
+  box-sizing: border-box;
+}
+.list {
+  width: 60%;
+  margin-right: 13px;
+}
+.details {
+  flex: 1;
+  width: 40%;
+}

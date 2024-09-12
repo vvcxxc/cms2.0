@@ -1,0 +1,15 @@
+.container {
+  height: 560px;
+}
+.mainTable {
+  height: calc(100% - 45px);
+}
+.tools {
+  margin-top: 15px;
+  display: flex;
+  width: 270px;
+  align-items: center;
+  .name{
+    margin-right: 10px;
+  }
+}

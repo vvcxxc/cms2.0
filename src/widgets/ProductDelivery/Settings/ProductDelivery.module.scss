@@ -1,0 +1,67 @@
+.content {
+  .row,
+  .rowStyle {
+    > span {
+      display: flex;
+      width: 56px;
+      font-size: 12px;
+    }
+    .title {
+      display: flex;
+      width: 51px;
+      font-size: 12px;
+    }
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+    .uploadContent {
+      width: 80px;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px #525252 solid;
+      border-radius: 5px;
+      &:hover {
+        border: 1px #6e6d6d solid;
+      }
+      // width: 30px;
+    }
+    :global(.cs-color-picker__trigger) {
+      border: 1px solid #525252;
+      &:hover {
+        border: 1px #6e6d6d solid;
+      }
+    }
+  }
+  .rowStyle {
+    margin-bottom: 0;
+  }
+}
+.uploadContent {
+  position: relative;
+  .mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+    .del {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+      opacity: 0;
+      transition: all 0.3s;
+    }
+    &:hover {
+      background-color: rgba($color: #000000, $alpha: 0.3);
+      .del {
+        opacity: 1;
+      }
+    }
+  }
+}

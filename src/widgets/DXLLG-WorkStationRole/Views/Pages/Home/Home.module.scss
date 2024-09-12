@@ -1,0 +1,44 @@
+.content {
+  width: 100%;
+  height: 100%;
+
+  .list {
+    width: 100%;
+    height: calc(100% - 104px);
+  }
+  .headerContent {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .header {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .headers {
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .save {
+      width: 100px;
+      height: 28px;
+    }
+    .box {
+      width: 240px;
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      column-gap: 8px;
+      > label {
+        font-size: 13px;
+        color: #333;
+        white-space: nowrap;
+      }
+    }
+  }
+}

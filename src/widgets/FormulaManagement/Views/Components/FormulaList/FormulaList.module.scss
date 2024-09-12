@@ -1,0 +1,53 @@
+.tools {
+  display: flex;
+  align-items: center;
+  .toolSpace {
+    margin-left: 12px;
+  }
+}
+.mainTable {
+  margin-top: 10px;
+  height: calc(100% - 60px);
+}
+
+.processStep {
+  width: 100%;
+  // padding: 8px 8px 24px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  overflow-y: auto;
+  // height: 134px;
+  box-sizing: border-box;
+  .stepItem {
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 80px;
+    height: 75px;
+    background: #ffffff;
+    border-radius: 2px 2px 2px 2px;
+    opacity: 1;
+    border: 1px solid #d1d1d1;
+    .stepName {
+      font-size: 14px;
+      display: -webkit-box; /* 必须指定display属性 */
+      overflow: hidden; /* 必须指定overflow属性 */
+      text-overflow: ellipsis; /* 显示省略号 */
+      line-height: 1.5em; /* 每行的高度 */
+      max-height: 4.5em; /* 最多显示四行（包括第四行） */
+      -webkit-line-clamp: 3; /* 只显示前三行 */
+      -webkit-box-orient: vertical; /* 垂直布局 */
+    }
+  }
+  .stepIcon {
+    display: block;
+    margin: 0 10px;
+    &:last-child {
+      display: none;
+    }
+  }
+}

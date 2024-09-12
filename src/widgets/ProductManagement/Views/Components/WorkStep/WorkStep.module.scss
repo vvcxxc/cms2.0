@@ -1,0 +1,21 @@
+.workStep {
+  height: 100%;
+}
+.stepTable {
+  margin-top: 10px;
+  height: calc(100% - 100px);
+}
+.headTool {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 22px;
+}
+.formItem {
+  margin: 0 !important;
+}
+.annex {
+  display: flex;
+  align-items: center;
+  
+}

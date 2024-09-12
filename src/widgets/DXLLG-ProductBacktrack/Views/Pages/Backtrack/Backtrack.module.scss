@@ -1,0 +1,103 @@
+.Backtrack {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+.header {
+  padding: 0 20px;
+  height: 50px;
+  background: #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  .formSelect {
+    width: 100px;
+    margin-right: 10px;
+  }
+  .formInput {
+    width: 180px;
+    margin-right: 10px;
+  }
+
+  .rightInfo {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.infoItem {
+  font-family: PingFang SC, PingFang SC;
+  font-weight: bold;
+  font-size: 14px;
+  color: #5c5c5c;
+  margin-right: 25px;
+  &:last-child {
+    margin-right: 0;
+  }
+  &.ngWorkSections {
+    max-width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+.stationItem {
+  display: flex;
+  // height: 570px;
+  overflow: hidden;
+  & + .stationItem {
+    margin-top: 20px;
+  }
+}
+.stationLeft {
+  width: 160px;
+  // height: 569px;
+  background: url(@/assets/imgs/track.png) no-repeat center / cover;
+  padding-top: 70px;
+  margin-right: 20px;
+  .stationLabel {
+    font-family: PingFang SC, PingFang SC;
+    font-weight: 800;
+    font-size: 20px;
+    color: #1e4a84;
+    padding: 0 20px;
+
+    .label {
+      text-align: center;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      &:last-child {
+        margin-top: 4px;
+      }
+    }
+  }
+}
+.stationContent {
+  background: #eef3f5 url(@/assets/imgs/f_bg.png) no-repeat left bottom / 100%
+    51px;
+  border-radius: 5px;
+  flex: 1;
+  padding: 0 20px;
+  overflow: hidden;
+  .contentHeader {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contentHeaderLeft {
+    display: flex;
+  }
+  .contentItem {
+    margin-top: 20px;
+  }
+}
+.ng {
+  color: #ff2929;
+}
+.ok {
+  color: #00af7a;
+}

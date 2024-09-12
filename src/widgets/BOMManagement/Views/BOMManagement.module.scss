@@ -1,0 +1,40 @@
+.BOMManagement {
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #dbdbdb;
+  .BOMTitle {
+    line-height: 45px;
+    font-size: 16px;
+    padding: 0 20px;
+    color: #2b2e32;
+    border-bottom: 1px solid #dbdbdb;
+    font-family: PingFang SC, PingFang SC;
+  }
+}
+.content {
+  display: flex;
+  height: calc(100% - 20px);
+  box-sizing: border-box;
+  .header {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    .searchInner {
+      margin-left: auto;
+      width: 200px;
+    }
+    // padding: 20px;
+  }
+  .mainTable {
+    height: calc(100% - 36px);
+  }
+}
+.BOMList {
+  width: 708px;
+  margin-right: 13px;
+}
+.BOMDetails {
+  flex: 1;
+}
